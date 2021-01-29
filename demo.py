@@ -8,7 +8,7 @@ from os.path import join, exists, basename, splitext
 import cv2
 from tqdm import tqdm
 # project
-from exposure_enhancement import enhance_image_exposure
+from .image_enhancement import enhance_image_exposure
 
 
 def main(args):
